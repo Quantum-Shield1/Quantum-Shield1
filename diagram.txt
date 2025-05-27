@@ -1,0 +1,22 @@
+[Start]  
+   |  
+   v  
+[إنشاء الكتلة الأولى (Genesis Block)]  
+   |  
+   v  
+[block_1]  
+   | بيانات  
+   | توقيع PQC (تجريبي)  
+   | SHA256 Hash  
+   v  
+[block_2]  
+   | بيانات  
+   | توقيع PQC  
+   | SHA256 Hash  
+   v  
+[block_3]  
+   ...  
+   (سلسلة متصلة من الكتل)  
+   |  
+   v  
+[Ready for P2P Integration]
