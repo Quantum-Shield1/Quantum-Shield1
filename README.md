@@ -1,31 +1,31 @@
-# Quantum Shield – مرحلة التأسيس (الخطوة 1)
+#Quantum Shield – Foundation Phase (Step 1)
 
-مرحبًا بك في المرحلة الأولى من مشروع **Quantum Shield**، شبكة Layer 1 مقاومة للحوسبة الكمومية.
+Welcome to the first phase of the **Quantum Shield** project, a Layer 1 network resistant to quantum computing.
+
+ ---
+
+## The goal of this stage
+
+Preparing the core engine of the blockchain, which includes:
+
+- Building the block structure ('Block Structure')
+- Connecting the blocks sequentially to form the chain
+- Signing each block using a post-quantum signature (PQC - experimental)
+- Generating a hash for each block using SHA256
 
 ---
 
-## الهدف من هذه المرحلة
+## Requirements
 
-تجهيز المحرك الأساسي للبلوكتشين، الذي يشمل:
+Make sure you have the following tools:
 
-- بناء هيكل الكتل (`Block Struct`)
-- ربط الكتل بشكل متسلسل لتكوين السلسلة
-- توقيع كل كتلة باستخدام توقيع ما بعد-الكم (PQC – تجريبي)
-- توليد هاش لكل كتلة باستخدام SHA256
+- [Rust](https://www.rust-lang.org/tools/install) (We recommend installing it via `rustup`)
+- Libraries:
+- `sha2` (for hashing)
+- `chrono` (for timing)
+- `serde` and `serde_json` (for serialization/downloading)
 
----
-
-## المتطلبات
-
-تأكد من توفر الأدوات التالية:
-
-- [Rust](https://www.rust-lang.org/tools/install) (نوصي بتثبيته عبر `rustup`)
-- مكتبات:
-  - `sha2` (للتجزئة)
-  - `chrono` (للتوقيت)
-  - `serde` و `serde_json` (للتسلسل/التنزيل)
-
-يمكن تثبيتها عبر:
+Can be installed via:
 
 ```bash
 cargo add sha2 chrono serde serde_json
