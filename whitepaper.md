@@ -96,4 +96,4 @@ In an era where quantum computing evolves rapidly, advanced blockchain networks 
 ## Contact
 
 - Email: `hebishpartner@gmail.com`
-- GitHub: [https://github.com/QuantumShieldLayr2/Quantum-Shield](https://github.com/QuantumShieldLayr2/Quantum-Shield)
+- GitHub:https://github.com/Quantum-Shield1/Quantum-Shield1
