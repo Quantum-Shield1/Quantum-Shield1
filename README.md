@@ -29,5 +29,10 @@ Can be installed via:
 
 ```bash
 cargo add sha2 chrono serde serde_json
+Note:
+SHA256 is currently used for prototyping due to its simplicity and widespread support in existing tooling.
+However, it is not considered quantum-resistant.
+In future production stages, the project plans to explore and integrate PQ-hash algorithms such as SPHINCS+ or XMSS to enhance quantum security.
+
 To contact :
 quantumshieldlayr1@protonmail.com
